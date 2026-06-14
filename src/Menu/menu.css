@@ -1,0 +1,265 @@
+/* =========================
+   Brand Colors (from logo)
+========================= */
+:root {
+  --rose-gold: #c9a08a;   /* logo text */
+  --sage: #9baa9c;        /* leaves */
+  --sage-dark: #7f9183;
+
+  --cream: #f6f5f2;       /* background */
+  --white: #ffffff;
+  --soft-gray: #e6e4e1;
+
+  --text: #3b3a38;
+  --muted: #7a7773;
+}
+
+/* =========================
+   Global
+========================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* =========================
+   Home (Categories)
+========================= */
+.homeContainer {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.homeHeader {
+  margin-bottom: 14px;
+}
+
+.homeTitle {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--rose-gold);
+  letter-spacing: 0.3px;
+}
+
+.homeSubtitle {
+  margin: 6px 0 0;
+  color: var(--muted);
+  opacity: 1;
+}
+
+.categoryList {
+  display: grid;
+  gap: 14px;
+}
+
+.categoryCard {
+  position: relative;
+  height: 120px;
+  border: 1px solid var(--soft-gray);
+  border-radius: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  background: var(--white);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.categoryCard:active {
+  transform: scale(0.99);
+}
+
+.categoryBg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.05);
+}
+
+.categoryOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 58, 56, 0.62),
+    rgba(59, 58, 56, 0.12)
+  );
+}
+
+.categoryTitle {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+
+/* =========================
+   Category Page (Brand Theme)
+========================= */
+.page {
+  max-width: 520px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+.darkPage {
+  /* Keep class name so you don't change JSX,
+     but now it uses brand theme instead of dark */
+  background: var(--cream);
+  color: var(--text);
+  padding: 14px;
+}
+
+/* top bar */
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--rose-gold);
+  opacity: 1;
+  letter-spacing: 0.3px;
+}
+
+.backBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--soft-gray);
+  background: var(--white);
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+
+.backBtn:active {
+  transform: scale(0.98);
+}
+
+/* =========================
+   Tabs
+========================= */
+.tabs {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 8px 0 14px;
+}
+
+.tabs::-webkit-scrollbar {
+  height: 0px;
+}
+
+.tabBtn {
+  white-space: nowrap;
+  border: 1px solid var(--soft-gray);
+  background: var(--white);
+  color: var(--muted);
+  padding: 10px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.tabBtn.active {
+  background: var(--sage);
+  border-color: var(--sage);
+  color: white;
+}
+
+/* =========================
+   Cards
+========================= */
+.cards {
+  display: grid;
+  gap: 14px;
+  padding-bottom: 40px;
+}
+
+.menuCard {
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--soft-gray);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.menuImage {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+
+.menuInfo {
+  padding: 14px;
+}
+
+.menuRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.menuName {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text);
+  font-weight: 900;
+}
+
+.menuPrice {
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--rose-gold);
+  opacity: 1;
+}
+
+.menuDesc {
+  margin: 10px 0 0;
+  color: var(--muted);
+  opacity: 1;
+  line-height: 1.4;
+}
+
+.emptyText {
+  color: var(--muted);
+  opacity: 1;
+  margin-top: 20px;
+}
+/* =========================
+   Logo
+========================= */
+.logo {
+  display: block;
+ 
+  max-width: 75%;
+  margin: 12px auto 8px;
+
+}
