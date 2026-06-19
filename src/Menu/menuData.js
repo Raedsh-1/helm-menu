@@ -134,7 +134,7 @@ saj: {
       {
         tab: "Salads",
         name: "Caesar Salad",
-        price: 12,
+        price: 10,
         description: "Romaine lettuce, grilled chicken breast, croutons, parmesan cheese, and classic Caesar dressing.",
         image: "/images/Ceaser.jpeg",
       },
