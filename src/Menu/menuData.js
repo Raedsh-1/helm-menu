@@ -473,43 +473,55 @@ saj: {
 
   shisha: {
     title: "Shisha",
-    tabs: ["Classic", "Special"],
+    tabs: ["Shisha"],
     items: [
       {
-        tab: "Classic",
+        tab: "Shisha",
         name: "Two Apples",
         price: 7,
         description: "Classic double apple shisha.",
       },
       {
-        tab: "Classic",
+        tab: "Shisha",
         name: "Lemon and Mint",
         price: 7,
         description: "Fresh lemon and mint shisha.",
       },
       {
-        tab: "Classic",
+        tab: "Shisha",
         name: "Blueberry",
         price: 7,
         description: "Sweet blueberry shisha.",
       },
       {
-        tab: "Classic",
+        tab: "Shisha",
         name: "Love",
         price: 7,
         description: "Signature love mix shisha.",
       },
       {
-        tab: "Special",
+        tab: "Shisha",
         name: "Special Ice Lemon and Mint",
         price: 14,
         description: "Iced lemon and mint special shisha.",
       },
       {
-        tab: "Special",
+        tab: "Shisha",
         name: "Special Ice Two Apples",
         price: 14,
         description: "Iced double apple special shisha.",
+      },
+      {
+        tab: "Shisha",
+        name: "Ras",
+        price: 4,
+        description: "Shisha head change.",
+      },
+      {
+        tab: "Shisha",
+        name: "Shisha Charge",
+        price: 4.5,
+        description: "Shisha refill charge.",
       },
     ],
   },
