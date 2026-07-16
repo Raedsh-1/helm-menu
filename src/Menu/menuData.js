@@ -422,6 +422,12 @@ saj: {
     items: [
       {
         tab: "Cakes & Sweets",
+        name: "Tiramisu",
+        price: 6,
+        description: "Classic Italian tiramisu with mascarpone and coffee.",
+      },
+      {
+        tab: "Cakes & Sweets",
         name: "Strawberry Cheesecake",
         price: 6,
         description: "Creamy cheesecake topped with fresh strawberries.",
