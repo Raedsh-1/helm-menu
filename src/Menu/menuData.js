@@ -343,7 +343,7 @@ saj: {
 
   beverages: {
     title: "Cocktails & Beverages",
-    tabs: ["Cocktails", "Shakes & Smoothies", "Soft Drinks"],
+    tabs: ["Cocktails", "Shakes & Smoothies", "Soft Drinks", "Add-ons"],
     items: [
       {
         tab: "Cocktails",
@@ -418,6 +418,12 @@ saj: {
         description: "Blended fresh mango smoothie.",
       },
       {
+        tab: "Shakes & Smoothies",
+        name: "Peach Smoothie",
+        price: 7,
+        description: "Blended fresh peach smoothie.",
+      },
+      {
         tab: "Soft Drinks",
         name: "Soft Drink",
         price: 2.5,
@@ -426,14 +432,32 @@ saj: {
       {
         tab: "Soft Drinks",
         name: "Energy Drink",
-        price: 4,
+        price: 5,
         description: "Energizing canned drink.",
       },
       {
         tab: "Soft Drinks",
-        name: "Ice Tea",
-        price: 4,
-        description: "Chilled refreshing ice tea.",
+        name: "Homemade Ice Tea",
+        price: 5,
+        description: "Homemade ice tea, available in peach or strawberry/mix berries.",
+      },
+      {
+        tab: "Add-ons",
+        name: "Add Mexican",
+        price: 1,
+        description: "Add-on for your homemade ice tea.",
+      },
+      {
+        tab: "Add-ons",
+        name: "Add Strawberry Syrup",
+        price: 1,
+        description: "Add-on for your homemade ice tea.",
+      },
+      {
+        tab: "Soft Drinks",
+        name: "Beer",
+        price: 5,
+        description: "Cold beer.",
       },
       {
         tab: "Soft Drinks",
@@ -444,7 +468,7 @@ saj: {
       {
         tab: "Soft Drinks",
         name: "Small Water Bottle",
-        price: 1.1,
+        price: 1,
         description: "250ml water bottle.",
       },
     ],
