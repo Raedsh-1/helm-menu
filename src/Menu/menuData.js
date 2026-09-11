@@ -487,7 +487,7 @@ saj: {
       {
         tab: "Cakes & Sweets",
         name: "Fruit Platter",
-        price: 7,
+        price: 10,
         description: "A selection of fresh seasonal fruits.",
       },
     ],
