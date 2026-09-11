@@ -12,7 +12,7 @@ export const menuByCategory = {
       {
         tab: "Snacks",
         name: "Termos (Lupin Beans)",
-        price: 3,
+        price: 4,
         description: "Freshly salted lupin beans.",
       },
       {
@@ -67,7 +67,7 @@ saj: {
     {
       tab: "Saj Menu",
       name: "Saj Zaatar",
-      price: 2.2,
+      price: 3,
       description: "Traditional saj bread topped with zaatar.",
     },
     {
@@ -452,61 +452,43 @@ saj: {
 
   desserts: {
     title: "Desserts",
-    tabs: ["Cakes & Sweets", "Sorbets"],
+    tabs: ["Cakes & Sweets"],
     items: [
       {
         tab: "Cakes & Sweets",
         name: "Tiramisu",
-        price: 6,
+        price: 7,
         description: "Classic Italian tiramisu with mascarpone and coffee.",
       },
       {
         tab: "Cakes & Sweets",
         name: "Strawberry Cheesecake",
-        price: 6,
+        price: 7,
         description: "Creamy cheesecake topped with fresh strawberries.",
       },
       {
         tab: "Cakes & Sweets",
         name: "Blueberry Cheesecake",
-        price: 6,
+        price: 7,
         description: "Creamy cheesecake topped with fresh blueberries.",
       },
       {
         tab: "Cakes & Sweets",
-        name: "Pizzatella",
-        price: 9,
-        description: "Pizza dough topped with Nutella and toppings.",
-      },
-      {
-        tab: "Cakes & Sweets",
         name: "Fondant au Chocolat",
-        price: 6,
+        price: 7,
         description: "Warm chocolate fondant with a melted center.",
       },
       {
         tab: "Cakes & Sweets",
         name: "Kunafa",
-        price: 6,
+        price: 7,
         description: "Traditional Lebanese kunafa with sweet cheese and syrup.",
       },
       {
         tab: "Cakes & Sweets",
         name: "Fruit Platter",
-        price: 10,
+        price: 7,
         description: "A selection of fresh seasonal fruits.",
-      },
-      {
-        tab: "Sorbets",
-        name: "Lemon Sorbet",
-        price: 6,
-        description: "Refreshing tangy lemon sorbet.",
-      },
-      {
-        tab: "Sorbets",
-        name: "Dreamy Coconut Sorbet",
-        price: 6,
-        description: "Smooth and creamy coconut sorbet.",
       },
     ],
   },
