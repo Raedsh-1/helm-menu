@@ -122,7 +122,7 @@ saj: {
 },
   international: {
     title: "International Cuisine",
-    tabs: ["Salads", "Pizza", "Main Dishes", "Burgers"],
+    tabs: ["Salads", "Pizza", "Main Dishes"],
     items: [
       {
         tab: "Salads",
@@ -186,20 +186,6 @@ saj: {
         price: 15,
         description: "Grilled chicken breast served with creamy mushroom sauce, french fries, and sautéed vegetables.",
         image: "/images/creamy-checkin-mashroum.jpeg",
-      },
-      {
-        tab: "Burgers",
-        name: "Premium Beef Burger",
-        price: 12,
-        description: "Juicy beef patty with lettuce, tomato, pickles, onions, and classic sauce, served in a toasted bun with fries.",
-        image: "/images/Premum-beef-burger.jpeg",
-      },
-      {
-        tab: "Burgers",
-        name: "Premium Zinger Burger",
-        price: 12,
-        description: "Chicken zinger with lettuce, pickles, onions, and mayo, served in a toasted bun with fries.",
-        image: "/images/Premum-zinger-burger.jpeg",
       },
     ],
   },
@@ -385,12 +371,6 @@ saj: {
       },
       {
         tab: "Cocktails",
-        name: "Virgin Pina Colada",
-        price: 5,
-        description: "Coconut cream, pineapple juice, and ice.",
-      },
-      {
-        tab: "Cocktails",
         name: "Lemonade",
         price: 5,
         description: "Freshly squeezed lemonade.",
@@ -404,37 +384,37 @@ saj: {
       {
         tab: "Shakes & Smoothies",
         name: "Chocolate Milk Shake",
-        price: 6,
+        price: 7,
         description: "Rich and creamy chocolate milkshake.",
       },
       {
         tab: "Shakes & Smoothies",
         name: "Vanilla Milk Shake",
-        price: 6,
+        price: 7,
         description: "Classic creamy vanilla milkshake.",
       },
       {
         tab: "Shakes & Smoothies",
         name: "Strawberry Milk Shake",
-        price: 6,
+        price: 7,
         description: "Fresh strawberry milkshake.",
       },
       {
         tab: "Shakes & Smoothies",
         name: "Strawberry Smoothie",
-        price: 6,
+        price: 7,
         description: "Blended fresh strawberries smoothie.",
       },
       {
         tab: "Shakes & Smoothies",
         name: "Mix Berries Smoothie",
-        price: 6,
+        price: 7,
         description: "Blended mix of fresh berries.",
       },
       {
         tab: "Shakes & Smoothies",
         name: "Mango Smoothie",
-        price: 6,
+        price: 7,
         description: "Blended fresh mango smoothie.",
       },
       {
