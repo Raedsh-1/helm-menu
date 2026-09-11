@@ -1,7 +1,7 @@
 export const menuByCategory = {
   starters: {
     title: "Starters / Appetizers",
-    tabs: ["Snacks", "Hot Starters"],
+    tabs: ["Snacks", "Starters"],
     items: [
       {
         tab: "Snacks",
@@ -22,37 +22,37 @@ export const menuByCategory = {
         description: "Cheese sauce, jalapeño, salsa, crispy nachos.",
       },
       {
-        tab: "Hot Starters",
+        tab: "Starters",
         name: "Special Lebanese Appetizer Mix",
         price: 14,
         description: "A special mix of Lebanese appetizers.",
       },
       {
-        tab: "Hot Starters",
+        tab: "Starters",
         name: "French Fries",
         price: 7,
         description: "Crispy golden fries served with ketchup.",
       },
       {
-        tab: "Hot Starters",
+        tab: "Starters",
         name: "Kebbeh",
         price: 7,
         description: "Traditional Lebanese kebbeh.",
       },
       {
-        tab: "Hot Starters",
+        tab: "Starters",
         name: "Rkakat Jebneh",
         price: 7,
         description: "Crispy cheese rolls.",
       },
       {
-        tab: "Hot Starters",
+        tab: "Starters",
         name: "Special Sabanekh",
         price: 8,
         description: "Special spinach Lebanese starter.",
       },
       {
-        tab: "Hot Starters",
+        tab: "Starters",
         name: "Warak Enab Grand Platter",
         price: 7,
         description: "Stuffed grape leaves grand platter.",
