@@ -444,7 +444,7 @@ saj: {
       {
         tab: "Soft Drinks",
         name: "Small Water Bottle",
-        price: 1,
+        price: 1.1,
         description: "250ml water bottle.",
       },
     ],
