@@ -1,7 +1,7 @@
 export const menuByCategory = {
   starters: {
     title: "Starters / Appetizers",
-    tabs: ["Snacks", "Hot Starters", "Lebanese"],
+    tabs: ["Snacks", "Hot Starters"],
     items: [
       {
         tab: "Snacks",
@@ -30,53 +30,29 @@ export const menuByCategory = {
       {
         tab: "Hot Starters",
         name: "French Fries",
-        price: 6,
+        price: 7,
         description: "Crispy golden fries served with ketchup.",
       },
       {
         tab: "Hot Starters",
-        name: "Wedges",
-        price: 7,
-        description: "Seasoned potato wedges.",
-      },
-      {
-        tab: "Hot Starters",
-        name: "Mozzarella Sticks",
-        price: 8,
-        description: "Golden fried mozzarella sticks with dipping sauce.",
-      },
-      {
-        tab: "Lebanese",
-        name: "Osmalieh Shrimps",
-        price: 12,
-        description: "Shrimps wrapped in osmalieh pastry, crispy fried.",
-      },
-      {
-        tab: "Lebanese",
         name: "Kebbeh",
         price: 7,
         description: "Traditional Lebanese kebbeh.",
       },
       {
-        tab: "Lebanese",
+        tab: "Hot Starters",
         name: "Rkakat Jebneh",
         price: 7,
         description: "Crispy cheese rolls.",
       },
       {
-        tab: "Lebanese",
-        name: "Sambousik Lahme",
-        price: 7,
-        description: "Fried pastry filled with spiced minced meat.",
-      },
-      {
-        tab: "Lebanese",
+        tab: "Hot Starters",
         name: "Special Sabanekh",
         price: 8,
         description: "Special spinach Lebanese starter.",
       },
       {
-        tab: "Lebanese",
+        tab: "Hot Starters",
         name: "Warak Enab Grand Platter",
         price: 7,
         description: "Stuffed grape leaves grand platter.",
